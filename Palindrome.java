@@ -17,5 +17,6 @@ class Solution {
         Scanner scan = new Scanner(System.in);
         int input = scan.nextInt();
         isPalindrome(input);
+        scan.close();
     }
 }
